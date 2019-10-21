@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost/aqingzuimei?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+server:
+  servlet:
+    context-path: /sell
+
+
+
+
+
+#logging:
+#  pattern:
+#    console: "%d -%msg%n"
+#  path: /var/logs/trade
+#  file: trade.log
+#  level:
+#    com.frode.trade.LoggerTest: debug
